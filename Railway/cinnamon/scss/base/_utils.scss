@@ -8,6 +8,7 @@
 
 @mixin colored-element {
 	background-color: $accent-element;
+	background-blur: $background-blur;
 	border: 1px solid $border-element;
 	padding: 6px;
 }

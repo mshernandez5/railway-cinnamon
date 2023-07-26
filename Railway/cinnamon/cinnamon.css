@@ -74,8 +74,7 @@ StScrollBar {
   min-height: 12px;
 }
 
-StScrollView.vfade StScrollBar,
-StScrollView.hfade StScrollBar {
+StScrollView.vfade StScrollBar, StScrollView.hfade StScrollBar {
   padding: 0;
 }
 
@@ -135,9 +134,7 @@ StScrollBar StButton#hhandle:active {
   icon-size: 16px;
 }
 
-.menu StEntry:focus > StIcon,
-.menu StEntry:active > StIcon,
-.menu StEntry:pressed > StIcon,
+.menu StEntry:focus > StIcon, .menu StEntry:active > StIcon, .menu StEntry:pressed > StIcon,
 .modal-dialog StEntry:focus > StIcon,
 .modal-dialog StEntry:active > StIcon,
 .modal-dialog StEntry:pressed > StIcon,
@@ -322,7 +319,8 @@ StScrollBar StButton#hhandle:active {
  * ! Popup Menus
  * ====================================== */
 .menu {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   margin: 4px;
@@ -391,8 +389,7 @@ StScrollBar StButton#hhandle:active {
   padding: 0;
 }
 
-.popup-menu-item > .separator, .popup-menu-item >
-.popup-separator-menu-item {
+.popup-menu-item > .separator, .popup-menu-item > .popup-separator-menu-item {
   /* Cinnamon < 4.0 */
   margin: 0;
   -gradient-height: 1px;
@@ -436,7 +433,8 @@ StScrollBar StButton#hhandle:active {
   font-size: 92%;
   width: 40px;
   height: 32px;
-  background-color: rgba(74, 133, 198, 0.75);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
 }
 
 .panel-top .panelLeft, .panel-top .panelCenter, .panel-top .panelRight {
@@ -451,7 +449,8 @@ StScrollBar StButton#hhandle:active {
   font-size: 92%;
   width: 40px;
   height: 32px;
-  background-color: rgba(74, 133, 198, 0.75);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
 }
 
 .panel-bottom .panelLeft, .panel-bottom .panelCenter, .panel-bottom .panelRight {
@@ -466,7 +465,8 @@ StScrollBar StButton#hhandle:active {
   font-size: 92%;
   width: 40px;
   height: 32px;
-  background-color: rgba(74, 133, 198, 0.75);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
 }
 
 .panel-left .panelLeft, .panel-left .panelCenter, .panel-left .panelRight {
@@ -481,7 +481,8 @@ StScrollBar StButton#hhandle:active {
   font-size: 92%;
   width: 40px;
   height: 32px;
-  background-color: rgba(74, 133, 198, 0.75);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
 }
 
 .panel-right .panelLeft, .panel-right .panelCenter, .panel-right .panelRight {
@@ -609,7 +610,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .desklet-with-borders {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   color: white;
@@ -617,7 +619,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .desklet-with-borders-and-header {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   border-top: none;
@@ -626,7 +629,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .desklet-header {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   border-bottom: none;
@@ -653,7 +657,8 @@ StScrollBar StButton#hhandle:active {
  * ! Photoframe
  * ====================================== */
 .photoframe-box {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   border-radius: 0;
@@ -1042,7 +1047,8 @@ StScrollBar StButton#hhandle:active {
 .modal-dialog {
   color: rgba(0, 0, 0, 0.75);
   font-size: 92%;
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
 }
@@ -1538,7 +1544,8 @@ StScrollBar StButton#hhandle:active {
  */
 #uiGroup > .switcher-list,
 .window-list-preview {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   color: white;
@@ -2178,9 +2185,7 @@ StScrollBar StButton#hhandle:active {
   icon-size: 16px;
 }
 
-.slingshot .entry:focus > StIcon,
-.slingshot .entry:active > StIcon,
-.slingshot .entry:pressed > StIcon {
+.slingshot .entry:focus > StIcon, .slingshot .entry:active > StIcon, .slingshot .entry:pressed > StIcon {
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -2752,7 +2757,8 @@ StScrollBar StButton#hhandle:active {
  * ! Stark menu applet
  * ====================================== */
 .starkmenu-background {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   margin: 0;
@@ -2951,7 +2957,8 @@ StScrollBar StButton#hhandle:active {
  * ! Reddit reader
  * ====================================== */
 .reddit-reader {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   color: rgba(0, 0, 0, 0.75);
@@ -3024,7 +3031,8 @@ StScrollBar StButton#hhandle:active {
  * ! G-tile
  * ====================================== */
 .grid-panel {
-  background-color: rgba(74, 133, 198, 0.95);
+  background-color: rgba(74, 133, 198, 0.315);
+  background-blur: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 6px;
   width: 220px;

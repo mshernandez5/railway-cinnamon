@@ -9,6 +9,8 @@ $panel-width: 40px;
 		font-size: $font-size-base;
 		@include size($panel-width, $panel-height);
 		background-color: $accent-element-panel;
+		background-blur: $background-blur;
+
 
 		// Style here because border-image and backgrounds are incompatible
 		.panelLeft, .panelCenter, .panelRight {
